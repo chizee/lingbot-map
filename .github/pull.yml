@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: Robbyant:main
+    mergeMethod: hardreset
+    mergeUnstable: true
